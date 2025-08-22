@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        My Website
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="https://www.kmutnb.ac.th/" class="nav-item">KMUTNB</a>
+            <a href="http://202.44.47.45/fitm/" class="nav-item">FITM</a>
+            <a href="https://sites.google.com/itm.kmutnb.ac.th/it-fitm" class="nav-item">IT DEPT</a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-btn">GO</button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1 class="welcome-title">Register Member</h1>
+            <p class="welcome-text">Please fill in the from below to create an account.</p>
+            <form>
+            <div class="input-rows">
+                <label for="fname">Full Name</label>
+                <input type="text" placeholder="Your full name" required>
+            </div>
+            <div class="input-rows">
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="example@example.com" required>
+            </div>
+            <div class="input-rows">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Choose a username" required>
+            </div>
+            <div class="input-rows">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter password" required>
+            </div>
+            <div class="input-rows">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" placeholder="Confirm password" required>
+            </div>
+            <div class="input-rows">
+                <label for="tel">Phone Number</label>
+                <input type="tel" placeholder="e.g 0123456789">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Register">
+            </div>
+            <div class="btn">
+                <input type="reset" value="cancel"> 
+            </div>
+            </form>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <a href="index.html" class="sidebar-item">Home</a>
+            <a href="profile.html" class="sidebar-item">Profile</a>
+            <a href="contact.html" class="sidebar-item">Contact</a>
+            <a href="register.html" class="sidebar-item">Register</a>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        Footer
+    </footer>
+</body>
+</html>
